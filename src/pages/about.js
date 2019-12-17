@@ -11,6 +11,7 @@ export const initGA = () => {
 export const logPageView=()=>{
   ReactGA.set({page : window.location.pathname})
   ReactGA.pageview(window.location.pathname)
+  console.log(window.location.pathname)
 }
 
 const aboutPageContent = <App/>;
@@ -19,7 +20,6 @@ const aboutPageContent = <App/>;
    componentDidMount() {
      initGA()
      logPageView()
-     console.log('object')
    }
    
   render() {

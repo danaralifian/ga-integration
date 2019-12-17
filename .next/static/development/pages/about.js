@@ -10532,12 +10532,13 @@ const logPageView = () => {
     page: window.location.pathname
   });
   react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].pageview(window.location.pathname);
+  console.log(window.location.pathname);
 };
 
 const aboutPageContent = __jsx(_components_pages_App__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 17
   },
   __self: undefined
 });
@@ -10546,7 +10547,6 @@ class about extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   componentDidMount() {
     initGA();
     logPageView();
-    console.log('object');
   }
 
   render() {
