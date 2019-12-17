@@ -1,5 +1,7 @@
 import React from 'react'
 import App from 'next/app'
+import Router from "next/router"
+import withGA from "next-ga"
 
 class MyApp extends App {
   // Only uncomment this method if you have blocking data requirements for
@@ -20,4 +22,4 @@ class MyApp extends App {
   }
 }
 
-export default MyApp
+export default withGA("UA-154723327-1", Router)(MyApp)
