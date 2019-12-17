@@ -15,6 +15,10 @@
     "/about": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/second": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
