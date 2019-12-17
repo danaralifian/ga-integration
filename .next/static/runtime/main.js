@@ -3704,7 +3704,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "F:\\lat\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "D:\\Danar-Fold\\google-analytics\\ga-integration\\.next");
       return error;
     }
 

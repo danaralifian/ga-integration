@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ReactGA from 'react-ga'
 
 const linkStyle = {
   marginRight: 15
