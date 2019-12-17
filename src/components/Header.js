@@ -7,12 +7,24 @@ const linkStyle = {
 
 const Header = () => (
   <div>
-    <Link href="/">
-      <a style={linkStyle}>Home</a>
+    <ReactGA.OutboundLink
+      eventLabel="Home"
+      to="/"
+      trackerNames={['Home']}>
+        Home
+      </ReactGA.OutboundLink>
+      <ReactGA.OutboundLink
+      eventLabel="About"
+      to="/about"
+      trackerNames={['about']}>
+        About
+      </ReactGA.OutboundLink>
+    {/* <Link href="/">
+       <a style={linkStyle}>Home</a>
     </Link>
     <Link href="/about">
       <a style={linkStyle}>About</a>
-    </Link>
+    </Link> */}
   </div>
 );
 
