@@ -8,8 +8,8 @@ export const initGA = () => {
 }
 
 export const logPageView=()=>{
-  ReactGA.set({page : window.location.pathname})
-  ReactGA.pageview(window.location.pathname+window.location.search)
+//   ReactGA.set({page : window.location.pathname})
+//   ReactGA.pageview(window.location.pathname+window.location.search)
   console.log(window.location.pathname+window.location.search)
 }
 
@@ -17,7 +17,7 @@ class second extends Component {
 
 	componentDidMount() {
 		// initGA()
-		// logPageView()
+		logPageView()
 	}
 	
 	render() {
