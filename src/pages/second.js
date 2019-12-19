@@ -17,7 +17,7 @@ class second extends Component {
 
 	componentDidMount() {
 		initGA()
-		logPageView()
+		// logPageView()
 	}
 	
 	render() {
