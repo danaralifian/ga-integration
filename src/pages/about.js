@@ -18,8 +18,8 @@ const aboutPageContent = <App/>;
 
  class about extends Component {
    componentDidMount() {
-     initGA()
-     logPageView()
+    //  initGA()
+    //  logPageView()
    }
    
   render() {

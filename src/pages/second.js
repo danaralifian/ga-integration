@@ -16,7 +16,7 @@ export const logPageView=()=>{
 class second extends Component {
 
 	componentDidMount() {
-		initGA()
+		// initGA()
 		// logPageView()
 	}
 	
