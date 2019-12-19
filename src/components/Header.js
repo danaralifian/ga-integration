@@ -11,13 +11,13 @@ const Header = () => (
       eventLabel="Home"
       to="/"
       trackerNames={['Home']}>
-        Home
+        <span style={linkStyle}>Home</span>
       </ReactGA.OutboundLink>
       <ReactGA.OutboundLink
       eventLabel="About"
       to="/about"
       trackerNames={['about']}>
-        About
+        <span style={linkStyle}>About</span>
       </ReactGA.OutboundLink>
     {/* <Link href="/">
        <a style={linkStyle}>Home</a>

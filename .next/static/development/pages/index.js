@@ -9215,7 +9215,14 @@ const Header = () => __jsx("div", {
     lineNumber: 10
   },
   __self: undefined
-}, "Home"), __jsx(react_ga__WEBPACK_IMPORTED_MODULE_2__["default"].OutboundLink, {
+}, __jsx("span", {
+  style: linkStyle,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, "Home")), __jsx(react_ga__WEBPACK_IMPORTED_MODULE_2__["default"].OutboundLink, {
   eventLabel: "About",
   to: "/about",
   trackerNames: ['about'],
@@ -9224,7 +9231,14 @@ const Header = () => __jsx("div", {
     lineNumber: 16
   },
   __self: undefined
-}, "About"));
+}, __jsx("span", {
+  style: linkStyle,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, "About")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
 
