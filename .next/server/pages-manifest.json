@@ -1,1 +1,5 @@
-{"/_app":"static/fA7zcQHQ6psUTE5jCl8o0/pages/_app.js","/_document":"static/fA7zcQHQ6psUTE5jCl8o0/pages/_document.js","/_error":"static/fA7zcQHQ6psUTE5jCl8o0/pages/_error.js","/about":"static/fA7zcQHQ6psUTE5jCl8o0/pages/about.js","/index":"static/fA7zcQHQ6psUTE5jCl8o0/pages/index.js","/p/[id]":"static/fA7zcQHQ6psUTE5jCl8o0/pages/p/[id].js","/post":"static/fA7zcQHQ6psUTE5jCl8o0/pages/post.js","/second":"static/fA7zcQHQ6psUTE5jCl8o0/pages/second.js","/":"static/fA7zcQHQ6psUTE5jCl8o0/pages/index.js"}
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js"
+}
