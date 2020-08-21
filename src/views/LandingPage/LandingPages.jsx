@@ -17,6 +17,8 @@ import Parallax from "~/src/components/Parallax/Parallax.js";
 
 import SectionIntro from './sections/SectionIntro'
 import SectionExperience from './sections/SectionExperience'
+import SectionPortofolio from './sections/SectionPortofolio'
+import SectionSkills from './sections/SectionSkills'
 
 import styles from "~/assets/jss/nextjs-material-kit/pages/components.js";
 
@@ -55,6 +57,10 @@ class LandingPages extends Component {
                 <SectionIntro/>
                 <br/>
                 <SectionExperience/>
+                <br/>
+                <SectionPortofolio/>
+                <br/>
+                <SectionSkills/>
               </div>
             </div>
             <Footer />
