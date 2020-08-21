@@ -54,6 +54,12 @@ const footerStyle = {
     height: "18px",
     position: "relative",
     top: "3px"
+  },
+  default : {
+    marginTop: '20px',
+    background: '#132FFF',
+    color: '#fff',
+    
   }
 };
 export default footerStyle;

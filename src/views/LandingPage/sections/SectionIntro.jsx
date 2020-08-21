@@ -1,59 +1,53 @@
-import React from "react";
-// nodejs library that concatenates classes
-import classNames from "classnames";
-// react components for routing our app without refresh
-import Link from "next/link";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-// @material-ui/icons
-// core components
-import Header from "~/src/components/Header/Header.js";
-import HeaderLinks from "~/src/components/Header/HeaderLinks.js";
-import Footer from "~/src/components/Footer/Footer.js";
-import GridContainer from "~/src/components/Grid/GridContainer.js";
-import GridItem from "~/src/components/Grid/GridItem.js";
-import Button from "~/src/components/CustomButtons/Button.js";
-import Parallax from "~/src/components/Parallax/Parallax.js";
+import React, { Component } from 'react'
+import mobile from '~/assets/img/mobile_apps.svg'
+import web from '~/assets/img/web.svg'
+import backend from '~/assets/img/backend.svg'
+import Fade from 'react-reveal/Fade'
+import Grid from '@material-ui/core/Grid'
+import { withStyles } from '@material-ui/core'
+import styles from './styles'
 
-import styles from "~/assets/jss/nextjs-material-kit/pages/components.js";
-
-const useStyles = makeStyles(styles);
-
-export default function Components(props) {
-  const classes = useStyles();
-  const { ...rest } = props;
-  return (
-    <div>
-      <Header
-        brand="NextJS Material Kit"
-        rightLinks={<HeaderLinks />}
-        fixed
-        color="transparent"
-        changeColorOnScroll={{
-          height: 400,
-          color: "white"
-        }}
-        {...rest}
-      />
-      <Parallax image={require("~/assets/img/nextjs_header.jpg")}>
-        <div className={classes.container}>
-          <GridContainer>
-            <GridItem>
-              <div className={classes.brand}>
-                <h1 className={classes.title}>NextJS Material Kit.</h1>
-                <h3 className={classes.subtitle}>
-                  A Badass Material Kit based on Material-UI and NextJS.
-                </h3>
+class SectionIntro extends Component {
+  render() {
+    const { classes } = this.props
+    return (
+      <div>
+        <h2 className={classes.sectionTitle}>My Services</h2>
+        <Grid container spacing={2}>
+          <Grid item xs={12} md={4}>
+            <Fade bottom>
+              <div className={classes.card}>
+                <img src={mobile} alt='Mobile Apps Developer' className={classes.imageDevelop}/>
+                <div className={classes.devLabel}>
+                  Mobile Apps Developer
+                </div>
               </div>
-            </GridItem>
-          </GridContainer>
-        </div>
-      </Parallax>
-
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <div style={{width : '100%', height : 1000}}/>
+            </Fade>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Fade bottom>
+              <div className={classes.card}>
+                <img src={web} alt='Web Front-End Developer' className={classes.imageDevelop}/>
+                <div className={classes.devLabel}>
+                  Front-End Developer
+                </div>
+              </div>
+            </Fade>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Fade bottom>
+              <div className={classes.card}>
+                <img src={backend} alt='Backend' className={classes.imageDevelop}/>
+                <div className={classes.devLabel}>
+                  Backend Developer (Beginner)
+                </div>
+              </div>
+            </Fade>
+          </Grid>
+        </Grid>
       </div>
-      <Footer />
-    </div>
-  );
+    )
+  }
 }
+
+export default withStyles(styles)(SectionIntro)

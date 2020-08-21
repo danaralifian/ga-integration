@@ -11,6 +11,7 @@ import {
 
 const buttonStyle = {
   button: {
+    fontFamily : 'Ubuntu',
     minHeight: "auto",
     minWidth: "auto",
     backgroundColor: grayColor,

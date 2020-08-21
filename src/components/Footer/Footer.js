@@ -27,9 +27,10 @@ export default function Footer(props) {
     [classes.footerWhiteFont]: whiteFont
   });
   return (
-    <footer className={footerClasses}>
-      <div className={classes.container}>
-        <div className={classes.left}>
+    <footer className={classNames(footerClasses, classes.default)}>
+      <div className={classNames(classes.container)}>
+      &copy; Copyright 2020 - Danar Alifian, All Rights Reserved
+        {/* <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
@@ -80,7 +81,7 @@ export default function Footer(props) {
             Creative Tim
           </a>{" "}
           for a better web.
-        </div>
+        </div> */}
       </div>
     </footer>
   );

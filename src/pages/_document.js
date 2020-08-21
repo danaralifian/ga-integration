@@ -15,6 +15,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <link href="https://fonts.googleapis.com/css2?family=Exo:ital@1&display=swap" rel="stylesheet"></link>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"></link>
         <Head />
         <body>
           <Main />

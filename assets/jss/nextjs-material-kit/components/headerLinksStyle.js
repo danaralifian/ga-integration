@@ -14,6 +14,7 @@ const headerLinksStyle = theme => ({
     color: "inherit"
   },
   listItem: {
+    fontFamily : 'Ubuntu',
     float: "left",
     color: "inherit",
     position: "relative",
@@ -40,8 +41,8 @@ const headerLinksStyle = theme => ({
     color: "inherit",
     position: "relative",
     padding: "0.9375rem",
-    fontWeight: "400",
-    fontSize: "12px",
+    fontWeight: "500",
+    fontSize: "14px",
     textTransform: "uppercase",
     borderRadius: "3px",
     lineHeight: "20px",
