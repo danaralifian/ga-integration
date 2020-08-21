@@ -27,7 +27,7 @@ class MyDocument extends Document {
           />
           <link rel="shortcut icon" href={require("~/assets/img/favicon.png")} />
           <meta name="theme-color" content="#000000" />
-          <link href="https://fonts.googleapis.com/css2?family=Exo:ital@1&display=swap" rel="stylesheet"></link>
+          {/* <link href="https://fonts.googleapis.com/css2?family=Exo:ital@1&display=swap" rel="stylesheet"></link> */}
           <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"></link>
         </Head>
         <body>

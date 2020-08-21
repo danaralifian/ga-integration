@@ -9,7 +9,7 @@ class MyApp extends App {
 
   render() {
     const { Component, pageProps } = this.props
-    return <Component {...pageProps} style={{fontFamily : 'Ubuntu !important'}}/>
+    return <Component {...pageProps} />
   }
 }
 
