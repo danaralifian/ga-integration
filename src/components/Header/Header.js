@@ -64,14 +64,12 @@ export default function Header(props) {
     [classes.fixed]: fixed
   });
   const brandComponent = (
-    <Link href="/components" as="/components">
-      <Button className={classes.title}>
-        <img src={logo} alt='Danar Alifian-Mobile and Web Development' style={{height : 28}}/>
-      </Button>
+    <Link href="/" as="/">
+      <img src={logo} alt='Danar Alifian-Mobile and Web Development' style={{height : 28}}/>
     </Link>
   );
   return (
-    <AppBar className={appBarClasses}>
+    <AppBar className={appBarClasses} style={{borderRadius : 'unset'}}>
       <Toolbar className={classes.container}>
         {leftLinks !== undefined ? brandComponent : null}
         <div className={classes.flex}>
