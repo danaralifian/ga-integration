@@ -3,6 +3,7 @@
 
 // ./pages/_document.js
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import '~/assets/scss/nextjs-material-kit.scss'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
