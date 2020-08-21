@@ -30,7 +30,7 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Exo:ital@1&display=swap" rel="stylesheet"></link>
           <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,500&display=swap" rel="stylesheet"></link>
         </Head>
-        <body>
+        <body style={{backgroundColor : '#fff'}}>
           <Main />
           <NextScript />
         </body>

@@ -3,7 +3,6 @@ import App from 'next/app'
 import Router from "next/router"
 import withGA from "next-ga"
 import '~/assets/scss/nextjs-material-kit.scss'
-// import '../assets/scss/styles.scss'
 
 class MyApp extends App {
 
