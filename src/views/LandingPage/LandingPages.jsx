@@ -19,7 +19,6 @@ import SectionIntro from './sections/SectionIntro'
 import SectionExperience from './sections/SectionExperience'
 
 import styles from "~/assets/jss/nextjs-material-kit/pages/components.js";
-import '../../assets/scss/styles.scss'
 
 class LandingPages extends Component {
     render() {
