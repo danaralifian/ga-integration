@@ -4,7 +4,9 @@ import LandingPage from '../views/LandingPage/LandingPages'
 
 class index extends Component {
 
-  
+  static async getInitialProps(context) {
+    return{}
+  }
 
   render() {
     return (
