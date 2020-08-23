@@ -1,32 +1,41 @@
-import Layout from '../components/MyLayout';
-import Link from 'next/link';
-import fetch from 'isomorphic-unfetch';
+import React, { Component } from 'react'
+import Head from 'next/head'
+import LandingPage from '../views/LandingPage/LandingPages'
 
-const Index = props => (
-  <Layout>
-    <h1>Batman TV Shows !!!</h1>
-    <h2>danar</h2>
-    <ul>
-      {props.shows.map(show => (
-        <li key={show.id}>
-          <Link href="/p/[id]" as={`/p/${show.id}`}>
-            <a>{show.name}</a>
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </Layout>
-);
+class index extends Component {
 
-Index.getInitialProps = async function() {
-  const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
-  const data = await res.json();
+  static async getInitialProps(context) {
+    return{}
+  }
 
-  console.log(`Show data fetched. Count: ${data.length}`);
+  render() {
+    return (
+      <React.Fragment>
+        <Head>
+          <title>Danar Alifian</title>
+          <meta name="description" content="Experience as Front-End and Mobile Apps developer with a demonstrated history of working
+              in the information technology and services industry. Skilled in Firebase, HTML, PHP, Cascading Style Sheet (CSS),
+              ReactJs & Redux, Next.Js, and mongoDB. Strong engineer professional with high integrity."></meta>
+        
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:url" content="https://danar.site/"></meta>
+        <meta property="og:title" content="Danar Alifian"></meta>
+        <meta property="og:description" content="Experience as Front-End and Mobile Apps developer with a demonstrated history of working
+              in the information technology and services industry. Skilled in Firebase, HTML, PHP, Cascading Style Sheet (CSS),
+              ReactJs & Redux, Next.Js, and mongoDB. Strong engineer professional with high integrity."></meta>
+        <meta property="og:image" content={require("~/assets/img/favicon.png")}></meta>
 
-  return {
-    shows: data.map(entry => entry.show)
-  };
-};
-
-export default Index;
+        <meta property="twitter:card" content="summary_large_image"></meta>
+        <meta property="twitter:url" content="https://metatags.io/"></meta>
+        <meta property="twitter:title" content="Danar Alifian"></meta>
+        <meta property="twitter:description" content="Experience as Front-End and Mobile Apps developer with a demonstrated history of working
+              in the information technology and services industry. Skilled in Firebase, HTML, PHP, Cascading Style Sheet (CSS),
+              ReactJs & Redux, Next.Js, and mongoDB. Strong engineer professional with high integrity."></meta>
+        <meta property="twitter:image" content={require("~/assets/img/favicon.png")}></meta>
+        </Head>
+        <LandingPage/>
+      </React.Fragment>
+    )
+  }
+}
+export default index
