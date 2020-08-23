@@ -26,7 +26,9 @@ class MyDocument extends Document {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <link rel="shortcut icon" href={require("~/assets/img/favicon.png")} />
-          <meta name="theme-color" content="#000000" />
+          <meta name="theme-color" content="#fff" />
+
+          
           <link href="https://fonts.googleapis.com/css2?family=Exo:ital@1&display=swap" rel="stylesheet"></link>
           <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,500&display=swap" rel="stylesheet"></link>
         </Head>
