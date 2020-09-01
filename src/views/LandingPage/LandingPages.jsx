@@ -52,7 +52,7 @@ class LandingPages extends Component {
                       <h3 className={classes.subtitle}>
                         My name is Danar Alifian and this is my litle corner on the internet.
                       </h3>
-                      <h5 style={{fontWeight : 'bold'}}>Find Me on</h5>
+                      <h5 style={{fontWeight : 'bold', marginBottom : 0}}>Find Me on</h5>
                       <a href='https://github.com/danaralifian' target='_blank' className={classes.link}>
                         <ButtonBase disableRipple className={classes.btn}>
                           <img src={githubLogo} alt='github' className={classes.socialMedia}/>
