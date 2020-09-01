@@ -9,7 +9,7 @@ class SectionPortofolio extends Component {
     const { classes } = this.props
     return (
       <div>
-        <h2 className={classes.sectionTitle}>My Portofolio</h2>
+        <h2 className={classes.sectionTitle}>Portofolio</h2>
         
       </div>
     )

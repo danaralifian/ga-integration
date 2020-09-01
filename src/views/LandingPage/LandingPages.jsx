@@ -21,7 +21,11 @@ import SectionPortofolio from './sections/SectionPortofolio'
 import SectionSkills from './sections/SectionSkills'
 import SectionAbout from './sections/SectionAbout'
 
+import githubLogo from '~/assets/img/github.png'
+import linkedinLogo from '~/assets/img/linkedin.png'
+
 import styles from "~/assets/jss/nextjs-material-kit/pages/components.js";
+import { ButtonBase } from '@material-ui/core';
 
 class LandingPages extends Component {
     render() {
@@ -48,6 +52,19 @@ class LandingPages extends Component {
                       <h3 className={classes.subtitle}>
                         My name is Danar Alifian and this is my litle corner on the internet.
                       </h3>
+                      <h5 style={{fontWeight : 'bold'}}>Find Me on</h5>
+                      <a href='https://github.com/danaralifian' target='_blank' className={classes.link}>
+                        <ButtonBase disableRipple className={classes.btn}>
+                          <img src={githubLogo} alt='github' className={classes.socialMedia}/>
+                          Github
+                        </ButtonBase>
+                      </a>
+                      <a href='https://www.linkedin.com/in/danar-alifian-1a1581174/' target='_blank' className={classes.link}>
+                        <ButtonBase disableRipple className={classes.btn}>
+                          <img src={linkedinLogo} alt='linkedin' className={classes.socialMedia}/>
+                          LinkedIn
+                        </ButtonBase>
+                      </a>
                     </div>
                   </GridItem>
                 </GridContainer>

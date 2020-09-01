@@ -23,7 +23,7 @@ class SectionSkills extends Component {
     const { classes } = this.props
     return (
       <div>
-        <h2 className={classes.sectionTitle}>My Skills</h2>
+        <h2 className={classes.sectionTitle}>Skills</h2>
         <Grid container spacing={3}>
           <Grid item xs={4} md={3}>
             <Fade bottom>

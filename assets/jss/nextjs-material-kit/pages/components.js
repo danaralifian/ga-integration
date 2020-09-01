@@ -39,6 +39,26 @@ const componentsStyle = {
   },
   textCenter: {
     textAlign: "center"
+  },
+  socialMedia : {
+    width : 30, 
+    height : 30, 
+    objectFit : 'contain',
+    margin : 5
+  },
+  btn : {
+    fontFamily : 'Ubuntu',
+    fontSize : 16,
+    fontWeight : 500
+  },
+  link : {
+    color : '#fff',
+    '&:hover' : {
+      color : '#fff',
+    },
+    '&:focus' : {
+      color : '#fff',
+    }
   }
 };
 
