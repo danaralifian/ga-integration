@@ -23,6 +23,7 @@ import SectionAbout from './sections/SectionAbout'
 
 import githubLogo from '~/assets/img/github.png'
 import linkedinLogo from '~/assets/img/linkedin.png'
+import facebookLogo from '~/assets/img/facebook.png'
 
 import styles from "~/assets/jss/nextjs-material-kit/pages/components.js";
 import { ButtonBase } from '@material-ui/core';
@@ -63,6 +64,12 @@ class LandingPages extends Component {
                         <ButtonBase disableRipple className={classes.btn}>
                           <img src={linkedinLogo} alt='linkedin' className={classes.socialMedia}/>
                           LinkedIn
+                        </ButtonBase>
+                      </a>
+                      <a href='https://www.facebook.com/danar.alifian.73' target='_blank' className={classes.link}>
+                        <ButtonBase disableRipple className={classes.btn}>
+                          <img src={facebookLogo} alt='facebook' className={classes.socialMedia}/>
+                          Facebook
                         </ButtonBase>
                       </a>
                     </div>
