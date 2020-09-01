@@ -30,6 +30,7 @@ const styles = {
     jobs : {
         fontSize: 20,
         fontWeight: 'bold',
+        marginBottom : 0
     },
     company : {
         fontSize : 16,
@@ -38,7 +39,7 @@ const styles = {
     },
     wrapper : {
         borderLeft : '5px solid #132FFF', 
-        padding : '0px 10px 10px 20px', 
+        padding : '0px 10px 20px 20px', 
         position : 'relative'
     },
     dots : {
