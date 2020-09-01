@@ -25,7 +25,7 @@ class SectionSkills extends Component {
       <div>
         <h2 className={classes.sectionTitle}>My Skills</h2>
         <Grid container spacing={3}>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={html} alt='Hyper Text Markup Language' className={classes.imageDevelop}/>
@@ -35,7 +35,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={css} alt='Cascading Style Sheet' className={classes.imageDevelop}/>
@@ -45,7 +45,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={js} alt='Javascript' className={classes.imageDevelop}/>
@@ -55,7 +55,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={php} alt='PHP' className={classes.imageDevelop}/>
@@ -65,7 +65,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={laravel} alt='laravel' className={classes.imageDevelop}/>
@@ -75,7 +75,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={firebase} alt='Firebase Realtime Database' className={classes.imageDevelop}/>
@@ -85,7 +85,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={mysql} alt='Mysql' className={classes.imageDevelop}/>
@@ -95,7 +95,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          {/* <Grid item xs={6} md={3}>
+          {/* <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={mongodb} alt='Mongodb' className={classes.imageDevelop}/>
@@ -105,17 +105,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid> */}
-          <Grid item xs={6} md={3}>
-            <Fade bottom>
-              <div className={classes.card}>
-                <img src={nodejs} alt='nodejs' className={classes.imageDevelop}/>
-                <div className={classes.devLabel}>
-                  nodeJS
-                </div>
-              </div>
-            </Fade>
-          </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={android} alt='Android Studio' className={classes.imageDevelop}/>
@@ -125,7 +115,17 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
+            <Fade bottom>
+              <div className={classes.card}>
+                <img src={nodejs} alt='nodejs' className={classes.imageDevelop}/>
+                <div className={classes.devLabel}>
+                  nodeJS
+                </div>
+              </div>
+            </Fade>
+          </Grid>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={reactjs} alt='ReactJs' className={classes.imageDevelop}/>
@@ -135,7 +135,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={nextjs} alt='nextjs' className={classes.imageDevelop}/>
@@ -145,7 +145,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          {/* <Grid item xs={6} md={3}>
+          {/* <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={flutter} alt='Flutter' className={classes.imageDevelop}/>
@@ -155,7 +155,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={reactjs} alt='React Native' className={classes.imageDevelop}/>
@@ -165,7 +165,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={vue} alt='Vue' className={classes.imageDevelop}/>

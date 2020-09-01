@@ -1,6 +1,7 @@
 const styles = {
     imageDevelop : {
-        height : '199px',
+        height : '150px',
+        width : '150px',
         width : '100%',
         objectFit : 'contain',
         margin : 'auto',
@@ -9,7 +10,7 @@ const styles = {
     card : {
         background : '#fff',
         borderRadius : 5,
-        border : '1px solid #ddd',
+        //border : '1px solid #ddd',
         //boxShadow: '0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2)'
     },
     devLabel : {
@@ -18,7 +19,8 @@ const styles = {
         background : '#132FFF',
         color : '#fff',
         borderRadius : '5px',
-        fontWeight : 'bold'
+        fontWeight : 'bold',
+        display : 'none'
     },
     sectionTitle : {
         fontWeight : 'bold',
