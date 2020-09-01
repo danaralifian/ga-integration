@@ -26,6 +26,29 @@ const styles = {
         fontWeight : 'bold',
         textAlign : 'center',
         margin : '0px 0px 20px'
+    },
+    jobs : {
+        fontSize: 20,
+        fontWeight: 'bold',
+    },
+    company : {
+        fontSize : 16,
+        margin : 0,
+        fontWeight : 400,
+    },
+    wrapper : {
+        borderLeft : '5px solid #132FFF', 
+        padding : '0px 10px 10px 20px', 
+        position : 'relative'
+    },
+    dots : {
+        position: 'absolute',
+        backgroundColor: 'rgb(19, 47, 255)',
+        width: '20px',
+        height: '20px',
+        top: '-1px',
+        borderRadius: '50%',
+        left: '-12px',
     }
 }
 
