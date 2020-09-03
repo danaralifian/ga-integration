@@ -39,7 +39,6 @@ class LandingPages extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    console.log(nextProps.router.query.nav)
     switch (nextProps.router.query.nav) {
       case 'about':
         this.handleScrollAbout()
@@ -59,7 +58,7 @@ class LandingPages extends Component {
   }
   
   componentDidMount() {
-    console.log(this.props.router.query)
+
   }
   
   handleScrollAbout=()=>{
