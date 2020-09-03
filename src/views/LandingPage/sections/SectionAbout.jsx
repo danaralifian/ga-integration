@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import { Grid, withStyles } from '@material-ui/core'
 import styles from './styles'
 
+import { connect } from 'react-redux'
+import { mapStateToProps, mapDispatchToProps } from '~/utils/Redux'
+
 class SectionAbout extends Component {
   render() {
     const { classes } = this.props
@@ -22,4 +25,7 @@ class SectionAbout extends Component {
   }
 }
 
-export default withStyles(styles)(SectionAbout)
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(withStyles(styles)(SectionAbout))
