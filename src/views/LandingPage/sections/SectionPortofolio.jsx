@@ -21,8 +21,8 @@ class SectionPortofolio extends Component {
             </div>
           </Grid>
           <Grid item xs={12} md={6}>
-            <h4>Mobile Apps</h4>
-            <p>
+            <h4 style={{fontWeight : 'bold'}}>Mobile Apps</h4>
+            <p style={{fontSize : 16}}>
             This is a fall detection application designed to help people who may have a high risk 
             of experiencing a fall, this device will notify their family members. 
             and this device makes use of the MiBand device to measure the user's heart rate value.
