@@ -1,7 +1,7 @@
 const styles = {
     imageDevelop : {
-        height : '150px',
-        width : '150px',
+        height : 'auto',
+        maxHeight : '100px',
         width : '100%',
         objectFit : 'contain',
         margin : 'auto',
@@ -59,10 +59,22 @@ const styles = {
         borderRadius : 10
     },
     playstore : {
+        borderRadius :5,
         width : 150,
         objectFit : 'contain',
         display : 'block',
-        margin : 'auto'
+        margin : 'auto',
+        "@media (min-width : 960px)" : {
+            marginTop : 50,
+        },
+        boxShadow:
+      '0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12)',
+        transition:
+      'box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+        '&:hover': {
+            boxShadow:
+            '0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2)',
+        },
     }
 }
 
