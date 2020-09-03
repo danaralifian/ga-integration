@@ -50,6 +50,19 @@ const styles = {
         top: '-1px',
         borderRadius: '50%',
         left: '-12px',
+    },
+    portoMobile : {
+        width : '48%', 
+        height : '100%', 
+        objectFit : 'contain',
+        boxShadow: '0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)',
+        borderRadius : 10
+    },
+    playstore : {
+        width : 150,
+        objectFit : 'contain',
+        display : 'block',
+        margin : 'auto'
     }
 }
 
