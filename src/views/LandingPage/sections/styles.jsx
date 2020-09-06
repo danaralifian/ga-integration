@@ -75,6 +75,13 @@ const styles = {
             boxShadow:
             '0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2)',
         },
+    },
+    webImage : {
+        width : '100%', 
+        height : '100%', 
+        objectFit : 'contain', 
+        borderRadius : 5,
+        boxShadow: '0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)',
     }
 }
 
