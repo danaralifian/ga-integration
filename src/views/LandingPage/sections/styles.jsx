@@ -56,7 +56,7 @@ const styles = {
         height : '100%', 
         objectFit : 'contain',
         boxShadow: '0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)',
-        borderRadius : 10
+        borderRadius : 8
     },
     playstore : {
         borderRadius :5,
@@ -80,7 +80,7 @@ const styles = {
         width : '100%', 
         height : '100%', 
         objectFit : 'contain', 
-        borderRadius : 7,
+        borderRadius : 8,
         boxShadow: '0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)',
     }
 }
