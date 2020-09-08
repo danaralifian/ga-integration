@@ -15,7 +15,7 @@ class SectionAbout extends Component {
           <Grid item xs={12} md={8}>
             <h3 style={{textAlign : 'justify', fontSize : 20, fontStyle : 'italic', marginTop : 0}}>
               ``Experience as Front-End and Mobile Apps developer with a demonstrated history of working
-              in the information technology and services industry. Skilled in Firebase, HTML, PHP, Cascading Style Sheet (CSS),
+              in the information technology. Skilled in Firebase, HTML, PHP, Cascading Style Sheet (CSS),
               ReactJs & Redux, and Next.Js. Strong engineer professional``
             </h3>
           </Grid>
