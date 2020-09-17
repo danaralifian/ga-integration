@@ -95,7 +95,7 @@ class SectionSkills extends Component {
               </div>
             </Fade>
           </Grid>
-          {/* <Grid item xs={4} md={3}>
+          <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
                 <img src={mongodb} alt='Mongodb' className={classes.imageDevelop}/>
@@ -104,7 +104,7 @@ class SectionSkills extends Component {
                 </div>
               </div>
             </Fade>
-          </Grid> */}
+          </Grid>
           <Grid item xs={4} md={3}>
             <Fade bottom>
               <div className={classes.card}>
