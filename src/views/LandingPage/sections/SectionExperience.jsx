@@ -20,13 +20,13 @@ class SectionExperience extends Component {
               <div className={classes.dots}/>
               <p className={classes.jobs}>Front End Developer</p>
               <p className={classes.company}>PT Asteris Digital Lab</p>
-              <label>October 2019</label>
+              <label>October 2019 - October 2020</label>
             </div>
             <div className={classes.wrapper}>
               <div className={classes.dots}/>
               <p className={classes.jobs}>Web Developer</p>
               <p className={classes.company}>Freelance</p>
-              <label>June 2017 - September 2018</label>
+              <label>June 2017</label>
             </div>
             <div className={classes.wrapper}>
               <div className={classes.dots}/>
