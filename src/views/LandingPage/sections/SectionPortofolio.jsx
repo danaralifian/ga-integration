@@ -66,7 +66,7 @@ class SectionPortofolio extends Component {
         </Grid>
         <a href='https://demo1.danar.site/' target='_blank'>
           <Button color='primary' style={{display : 'block', margin : 'auto', textTransform : 'capitalize', marginTop : 25, fontSize : 16}}>
-            <WebOutlinedIcon/> Open Page
+            <WebOutlinedIcon/> Goto Page
           </Button>
         </a>
       </div>
